@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo_black.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <nav class="navbar noselect">
+      <img src="logo.png" href="index1.html" alt="Logo" class="logo">
+	  <h1 align="center">南湖高中校刊社</h1>
+      <p class="title nonphone" onclick="router.navigate('/')"></p>
+      <p class="title phone" onclick="router.navigate('/')"></p>
+      <span id="menu">
+            <span id="icon"></span>    
+            <div class="title nonphone menu dropdown"><a href="#">關於校刊社</a>
+                <div style="margin-top: 1em;">
+					<p><a class="subitem" style="animation-delay: .1s" href="about.html">簡介</a></p>
+					<p><a class="subitem" style="animation-delay: .2s" href="#/rules">憲章</a></p>
+					<p><a class="subitem" style="animation-delay: .3s" href="#/friends">友社</a></p>
+				</div>
+            </div>
+
+            <div class="title nonphone menu "><a href="photo.html">相簿</a>
+                <div style="margin-top: 1em;"></div>
+            </div>
+            <div class="title nonphone menu "><a href="class.html">課程</a>
+                <div style="margin-top: 1em;"></div>
+            </div>
+       </span>
+	   
+<div>活動照片</div>
+
+
+
+<div class="footer">Nanhu High School School Magazine Club since 2001</div>
+
+      <div id="phonemenu"></div>
+    </nav>
+    <div id="page" onclick="app.menu.close()"></div>
+    <footer class="footer mono">
+      <span id="footer"></span>
+    </footer>
+
+
+  </body>
+</html>
