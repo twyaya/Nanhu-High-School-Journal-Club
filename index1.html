@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo_black.png">
     <script src='https://twyaya.github.io/index.js'></script>
     <title>校刊社網頁</title>
   </head>
 
   <body>
     <nav class="navbar noselect">
-      <img src="logo.png" onclick="router.navigate('/')" alt="Logo" class="logo">
+      <img src="logo.png" href ="index.html" onclick="router.navigate('/')" >
 	  <h1 align="center" href="index.html">南湖高中校刊社</h1>
       <p class="title nonphone" onclick="router.navigate('/')"></p>
       <p class="title phone" onclick="router.navigate('/')"></p>
+	  
       <span id="menu">
             <span id="icon"></span>    
             <div class="title nonphone menu dropdown"><a href="#">關於校刊社</a>
@@ -25,11 +25,12 @@
             <div class="title nonphone menu "><a href="photo.html">相簿</a>
                 <div style="margin-top: 1em;"></div>
             </div>
-            <div class="title nonphone menu "><a href="class.html">課程</a>
+            <div class="title nonphone menu "><a href="class.html">歷屆校刊</a>
                 <div style="margin-top: 1em;"></div>
             </div>
        </span>
-
+    
+    <p id="brief">校刊，學校的光榮<p>
 
 <div class="footer">Nanhu High School School Magazine Club since 2001</div>
 

@@ -1,5 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono";
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500&display=swap&subset=chinese-traditional";
+#brief {
+  font-size: 40px
+}
 a {
   color: antiquewhite;
   text-decoration: none;
