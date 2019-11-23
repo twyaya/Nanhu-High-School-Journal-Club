@@ -1,48 +1,117 @@
-<!DOCTYPE HTML>
-<html lang="zh-tw">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src='https://twyaya.github.io/index.js'></script>
-    <title>校刊社網頁</title>
-  </head>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>南湖高中校刊社</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+    <img class="navbar-brand" src = "https://twyaya.github.io/logo.png" href="https://twyaya.github.io/">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <!-- Links -->
+    <div class="collapse navbar-collapse" style='position:absolute;right:0;'>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twyaya.github.io/class.html">歷屆校刊</a>
+        </li>
+        <li class="nav-item"  align="right">
+          <a class="nav-link" href="#">相簿</a>
+        </li>
 
-  <body>
-    <nav class="navbar noselect">
-      <img src="logo.png" href ="index.html" onclick="router.navigate('/')" >
-	  <h1 align="center" href="index.html">南湖高中校刊社</h1>
-      <p class="title nonphone" onclick="router.navigate('/')"></p>
-      <p class="title phone" onclick="router.navigate('/')"></p>
-	  
-      <span id="menu">
-            <span id="icon"></span>    
-            <div class="title nonphone menu dropdown"><a href="#">關於校刊社</a>
-                <div style="margin-top: 1em;"><p><a class="subitem" style="animation-delay: .1s" href="about.html">簡介</a></p><p><a class="subitem" style="animation-delay: .2s" href="#/rules">憲章</a></p><p><a class="subitem" style="animation-delay: .3s" href="#/friends">友社</a></p></div>
-            </div>
-
-            <div class="title nonphone menu "><a href="photo.html">相簿</a>
-                <div style="margin-top: 1em;"></div>
-            </div>
-            <div class="title nonphone menu "><a href="class.html">歷屆校刊</a>
-                <div style="margin-top: 1em;"></div>
-            </div>
-       </span>
+    <!-- Dropdown -->
+        <li class="nav-item dropdown" align="right">
+          <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+            關於校刊社
+          </a>
+          <div class="dropdown-menu" align="right">
+            <a class="dropdown-item" href="https://twyaya.github.io/about.html">簡介</a>
+            <a class="dropdown-item" href="#">憲章</a>
+            <a class="dropdown-item" href="#">友社</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav><br><br><br><br><br><br><br>
+  
+  <div style="margin:0px auto;border-width:3px;border-style:solid;border-radius:10px;border-color:#343A40;width:800px; height:60px;" align="center">
+    <h1 class="font-weight-bold" align="center">南湖高中校刊社</h1>
+  </div>
+  <br>
+  
+  <div class="container">
     
-    <p id="brief">校刊，學校的光榮<p>
+    
+    
+    
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
 
-<div class="footer">Nanhu High School School Magazine Club since 2001</div>
+    <div class="col-md-6">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+ 
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/1.jpg">
+          <div class="carousel-caption">
+            <h3>頭版</h3>
+            <p>重要國際交流活動</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpg">
+          <div class="carousel-caption">
+            <h3>第六版</h3>
+            <p>美女與野獸影評</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.jpg">
+          <div class="carousel-caption">
+            <h3>第七版</h3>
+              <p>仙履奇緣影評</p>
+          </div>
+        </div>
+      </div>
 
-      <div id="phonemenu"></div>
-    </nav>
-    <div id="page" onclick="app.menu.close()"></div>
-    <footer class="footer mono">
-      <span id="footer"></span>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
-    <script src="https://unpkg.com/navigo@6"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
-  </body>
-</html>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+ 
+      </div>
+    </div>
+
+  <div class="col-md-6" id="bor">
+    <h2 class="font-weight-bold">第五期期南湖校報</h2>
+      <p class="lead">主軸圍繞在NBA、世大運和卡通影視作品上。</p>
+  </div>
+
+  </div>
+  </div>
+  
+  <div class="footer">
+    <p id="footer">&copy;Nanhu High School School Magazine Club since 2001</p>
+  </div>
+
+
+</body>
