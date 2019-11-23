@@ -1,5 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Ubuntu+Mono";
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500&display=swap&subset=chinese-traditional";
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
 #brief {
   font-size: 40px
 }
@@ -58,13 +63,6 @@ strong {
   clear: both;
 }
 
-/* Column */
-.col {
-  display: block;
-  background: #393939;
-  margin: 1% 0 1% 2%;
-  float: left;
-}
 
 .col:first-child {
   margin-left: 0 !important;
