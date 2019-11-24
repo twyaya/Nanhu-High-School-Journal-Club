@@ -21,6 +21,7 @@ body
 {
 	float:right 
 }
+
 .parallax{
     min-height: 500px; 
     background-attachment: fixed;
@@ -28,7 +29,7 @@ body
     background-size: cover;
 }
 .img-1{
-    background-image: url("https://scontent.ftpe7-1.fna.fbcdn.net/v/t31.0-8/19477707_444447725912695_4441452479787381245_o.jpg?_nc_cat=110&_nc_ohc=EsT10gol9FkAQlAAWDrTd1ut9k7woNEH_Iqdx4vzpzg8PdDb9XjN35GSQ&_nc_ht=scontent.ftpe7-1.fna&oh=a5432c7f314d3c046548dc7d38bb956b&oe=5E832B47");
+    background-image: url("https://i.imgur.com/HS6gbZM.jpg");
 }
 .img-2{
     background-image: url("https://pic.pimg.tw/weng3309/1523099060-1206937231.jpg");
@@ -37,3 +38,9 @@ body
     background-image: url("圖像");
 }
 
+#img-4
+{
+	width:auto;
+	height:250px;
+	border-radius:50%;
+}
