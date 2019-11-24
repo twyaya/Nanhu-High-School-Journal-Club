@@ -1,6 +1,7 @@
 body
 {
 	background-color:#ffb580;
+	font-weight:900;
 }
 
 .footer
@@ -8,7 +9,7 @@ body
 	background-color:#FFA500;
 	clear:both;
 	text-align:center;
-	height:30px;
+	height:50px;
 }
 
 #footer
@@ -20,3 +21,19 @@ body
 {
 	float:right 
 }
+.parallax{
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.img-1{
+    background-image: url("https://scontent.ftpe7-1.fna.fbcdn.net/v/t31.0-8/19477707_444447725912695_4441452479787381245_o.jpg?_nc_cat=110&_nc_ohc=EsT10gol9FkAQlAAWDrTd1ut9k7woNEH_Iqdx4vzpzg8PdDb9XjN35GSQ&_nc_ht=scontent.ftpe7-1.fna&oh=a5432c7f314d3c046548dc7d38bb956b&oe=5E832B47");
+}
+.img-2{
+    background-image: url("https://pic.pimg.tw/weng3309/1523099060-1206937231.jpg");
+}
+.img-3{
+    background-image: url("圖像");
+}
+
