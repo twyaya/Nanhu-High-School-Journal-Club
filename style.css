@@ -37,6 +37,9 @@ body
 #img-4
 {
 	width:auto;
-	height:250px;
+	height:auto;
 	border-radius:50%;
+	text-align:center;
+	margin:auto;
 }
+
