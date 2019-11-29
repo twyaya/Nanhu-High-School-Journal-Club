@@ -8,7 +8,7 @@
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="index.js"></script>
+  <script defer type="text/javascript" src="index.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -243,7 +243,7 @@
   <div class="row">
     <div>
         <h2>校刊Q&A </h2>
-          南湖校刊社，創立於2001年，屬服務型社團。
+          南湖校刊社，創立於2001年，屬<mark>服務型社團</mark>。
           給對校刊社抱有疑問(及熱情)的同學們😊
         <p>
         Q:校刊社在幹嘛？只有編校刊嗎？
@@ -267,10 +267,12 @@
         A:基本上，會，每個人都會分配到工作，但是通常不會太多，而且不是常常有工作，大概就是校刊的內文需要大家一起幫忙而已，也很少有需要在課後留校的情況</p>
         以上😉希望大家踴躍加校刊ㄛ
     </div>
-    </div><br>
+    </div>
   </div>
+ <br>
  
-  <div class="container" id="Member introduction">  
+<div id="IntroductionDiv">
+  <div class="container" id="MemberIntroduction">  
     <h2>幹部介紹</h2>
     <div class="row">
     <div class="col-sm-3">
@@ -299,27 +301,30 @@
     </div>
   </div>
   </div>
-  <br>
+  </div>
+  
+<div id="question">
+    <div class="container" id="question">
+    <h2>好社團不加嗎?</h2>
+    <button type="button" class="btn btn-success" id="btn4">加加加加加!</button>
+    <button type="button" class="btn btn-primary" id="btn5" data-toggle="modal" data-target="#exampleModal">為社團應援!</button>
+    </div><br>
+	
+    <div class="container">
+      <div class="alert alert-success" id="thanks1">
+        <strong>謝謝!</strong> 國家感謝您!
+      </div>
+    </div>
 
-<div class="container">
-  <h2>好社團不加嗎?</h2>
-  <button type="button" class="btn btn-success" id="btn4">加加加加加!</button>
-  <button type="button" class="btn btn-primary" id="btn5" data-toggle="modal" data-target="#exampleModal">為社團應援!</button>
+    <div class="container">
+        <div class="alert alert-primary" id="thanks2">
+            <strong>社長說</strong>這是一定要的!
+        </div>
+    </div><br>
 </div><br>
 
-<div class="container">
-  <div class="alert alert-success" id="thanks1">
-    <strong>謝謝!</strong> 國家感謝您!
-  </div>
-</div>
 
-<div class="container">
-  <div class="alert alert-primary" id="thanks2">
-    <strong>社長說</strong>這是一定要的!
-  </div>
-</div>
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
