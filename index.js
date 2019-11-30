@@ -3,7 +3,6 @@ $(document).ready(function(){
   $("#thanks2").hide();
   $("#school2").hide();
   $("#school3").hide();
-  
   alert("建議用電腦觀看已達最佳效果");
   
   $("#btn1").click(function(){
