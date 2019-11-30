@@ -2,9 +2,7 @@ $(document).ready(function(){
   $("#thanks1").hide();
   $("#thanks2").hide();
   $("#school2").hide();
-  $("#school3").hide();
-  alert("建議用電腦觀看已達最佳效果");
-  
+  $("#school3").hide();  
   $("#btn1").click(function(){
     $("#school1").show();
     $("#school2").hide();
