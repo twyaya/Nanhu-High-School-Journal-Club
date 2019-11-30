@@ -9,6 +9,20 @@ h2
 	font-weight:bold;
 }
 
+#title
+{
+	border-width:3px;
+	border-style:solid;
+	border-radius:10px;
+	border-color:#343A40;
+	width:300px;
+	height:60px;
+	position:relative;
+	animation:myfirst;
+	animation-duration:2s;
+}
+
+
 #Introduction
 {
 	border-width:3px;
@@ -51,19 +65,19 @@ h2
 
 
 .parallax{
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
 }
 .img-1{
-    background-image: url("https://i.imgur.com/HS6gbZM.jpg");
+	background-image: url("https://i.imgur.com/HS6gbZM.jpg");
 }
 .img-2{
-    background-image: url("https://pic.pimg.tw/weng3309/1523099060-1206937231.jpg");
+	background-image: url("https://pic.pimg.tw/weng3309/1523099060-1206937231.jpg");
 }
 .img-3{
-    background-image: url("圖像");
+	background-image: url("圖像");
 }
 
 #img-4
