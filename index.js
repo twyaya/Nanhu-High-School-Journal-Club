@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("#thanks2").hide();
   $("#school2").hide();
   $("#school3").hide();  
+  new WOW().init();
   $("#btn1").click(function(){
     $("#school1").show();
     $("#school2").hide();
@@ -27,6 +28,7 @@ $(document).ready(function(){
   $("#btn5").click(function(){
     $("#thanks2").show();
    });
+   
 });
 
 
