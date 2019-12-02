@@ -10,8 +10,9 @@ https://twyaya.github.io/
 3.<b>Bootstrap 4</b>
 
 <h3>Preview 預覽</h3>
-<img src="https://i.imgur.com/YqfbTry.jpg"></img>
-<img src="https://i.imgur.com/oyDRVhi.png"></img>
+
+<img src="https://i.imgur.com/5PbHNYY.png"></img>
+<img src="https://i.imgur.com/3QI7zQ0.png"></img>
 
 <h3>Feature 特色</h3>
 
