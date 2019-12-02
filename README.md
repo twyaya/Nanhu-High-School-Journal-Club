@@ -11,7 +11,7 @@ https://twyaya.github.io/
 
 <h3>Preview 預覽</h3>
 
-<img src="https://i.imgur.com/3QI7zQ0.png"></img>
+<img src="https://i.imgur.com/5PbHNYY.png"></img>
 <img src="https://i.imgur.com/3QI7zQ0.png"></img>
 
 <h3>Feature 特色</h3>
