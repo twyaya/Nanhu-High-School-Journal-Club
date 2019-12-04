@@ -4,6 +4,7 @@ body
 	font-weight:900;
 	font-family:Microsoft Yahei;
 }
+
 h2
 {
 	font-weight:bold;
@@ -61,23 +62,11 @@ h2
 }
 
 
-.parallax{
-	min-height: 500px; 
-	background-attachment: fixed;
-	background-position: center center;
-	background-size: cover;
-}
-.img-1{
-	background-image: url("https://i.imgur.com/HS6gbZM.jpg");
-}
-.img-2{
-	background-image: url("https://pic.pimg.tw/weng3309/1523099060-1206937231.jpg");
-}
-.img-3{
-	background-image: url("圖像");
-}
+/*
 
-#img-4
+*/
+
+.headshot
 {
 	width:auto;
 	height:auto;
