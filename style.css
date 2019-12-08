@@ -1,6 +1,6 @@
 body
 {
-	background-image:url('back3.jpg');
+	background-image:url('images/back3.jpg');
 	font-weight:900;
 	font-family:Microsoft Yahei;
 }
@@ -74,5 +74,6 @@ h2
 	text-align:center;
 	margin:auto;
 }
+
 
 
