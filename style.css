@@ -19,6 +19,12 @@ h2
 	background:#ffac47
 }
 
+.navbar-toggler{
+	width:50px;
+	height:50px;
+	padding: 0px;
+}
+
 #nav1{
 	color: #000;
 }
