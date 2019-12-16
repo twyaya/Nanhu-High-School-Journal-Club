@@ -1,5 +1,6 @@
 # 南湖校刊社網站
-https://twyaya.github.io/
+<h3>Demo</h3>
+ https://twyaya.github.io/Nanhu-High-School-Journal-Club/
 
 <h3>使用</h3>
 
