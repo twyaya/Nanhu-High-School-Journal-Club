@@ -70,10 +70,6 @@ h2
 
 #MemberIntroduction
 {
-	border-width:3px;
-	border-style:solid;
-	border-radius:10px;
-	border-color:#343A40;
 	padding:15px 20px;
 	width:auto; 
 	height:auto;
@@ -100,11 +96,23 @@ h2
 .headshot
 {
 	width:auto;
-	height:auto;
-	border-radius:50%;
-	text-align:center;
+	height:auto;	
 	margin:auto;
 }
 
+#GroupsTitle
+{
+	margin-bottom:50px;
+	margin-top:33px;
+}
+
+.Area
+{
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: none;
+	padding: 22px 26px;
+	margin-top:33px;
+}
 
 
