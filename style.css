@@ -32,6 +32,7 @@ h2
 .navbar-link{
 	color: #000;
 }
+
 .navbar-brand {
     color: #000;
 }
@@ -88,7 +89,13 @@ h2
 	font-size:20px;
 }
 
+#photo{
+	margin-top:33px;
+}
 
+#SchoolJournal{
+	margin-top:33px;
+}
 /*
 
 */
@@ -115,4 +122,23 @@ h2
 	margin-top:33px;
 }
 
+#Groups
+{
+	border-width:3px;
+	border-style: solid;
+	background-color: #FFAC47;
+}
 
+#Advantage
+{
+	border-width: 3px;
+	border-style: solid;
+	background-color: #63a6ea;
+}
+
+#MemberIntroduction
+{
+	border-width: 3px;
+	border-style: solid;
+	background-color: gray;
+}
