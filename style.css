@@ -142,3 +142,14 @@ h2
 	border-style: solid;
 	background-color: gray;
 }
+
+#other
+{
+	margin:0px auto;
+	border-width:3px;
+	border-style:solid;
+	border-radius:10px;
+	border-color:#343A40;
+	width:350px; 
+	height:95px;
+}
