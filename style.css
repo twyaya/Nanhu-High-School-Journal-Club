@@ -2,7 +2,7 @@ body
 {
 	background-image:url('images/back3.jpg');
 	font-weight:900;
-	font-family:Microsoft Yahei;
+	font-family:Microsoft JhengHei;
 }
 
 h2
@@ -42,6 +42,18 @@ h2
 	height:50px;
 }
 
+.nav-item:hover {
+	font-weight: bold;
+	border-width:1px;
+	border-style:solid;
+	border-color:#343A40;
+	background-color: #59a2ec;
+}
+
+.smallcard:hover {
+	background-color: #FFFFFF;
+}
+
 #title
 {
 	border-width:3px;
@@ -62,6 +74,7 @@ h2
 	padding:15px 20px;
 	width:auto; 
 	height:auto;
+	background-image: url(images/back2.jpg);
 }
 
 #IntroductionDiv
@@ -116,10 +129,23 @@ h2
 .Area
 {
 	background: #fff;
-	border-radius: 3px;
 	box-shadow: none;
 	padding: 22px 26px;
 	margin-top:33px;
+}
+
+#Top
+{
+	margin-top:100px;
+}
+
+#medal
+{
+	margin-top:120px;
+	background-image: url('images/活動/medal.jpg');
+	background-size: 1412*942;
+	width: 1412px;
+	height: 942px;
 }
 
 #Groups
@@ -152,4 +178,8 @@ h2
 	border-color:#343A40;
 	width:350px; 
 	height:95px;
+}
+
+#question{
+	margin-top:33px;
 }

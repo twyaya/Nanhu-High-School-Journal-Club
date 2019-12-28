@@ -25,6 +25,7 @@ $(document).ready(function(){
   $("#btn4").click(function(){
     $("#thanks1").show();
    });
+   
   $("#btn5").click(function(){
     $("#thanks2").show();
    });
