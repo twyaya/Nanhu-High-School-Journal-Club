@@ -12,8 +12,10 @@
 
 <h3>Preview 預覽</h3>
 
-<img src="https://i.imgur.com/5PbHNYY.png"></img>
-<img src="https://i.imgur.com/3QI7zQ0.png"></img>
+<img src="https://i.imgur.com/x4EF0i0.png"></img>
+
+
+<img src="https://i.imgur.com/lQylVRf.png"></img>
 
 <h3>Feature 特色</h3>
 
@@ -28,6 +30,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-Made by 張皓偉 in 2019
+ChatUI by 棒棒勝
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/tw/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/">創用 CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款</a>授權.
+Made by 張皓偉 in 2019
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">創用 CC 姓名標示 4.0 國際 授權條款</a>授權.
