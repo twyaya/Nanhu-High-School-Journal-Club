@@ -76,7 +76,7 @@ h2
 	padding:15px 20px;
 	width:auto; 
 	height:auto;
-	background-color: #E3E3E3;
+	background-image: url(https://static.newmobilelife.com/wp-content/uploads/2018/06/iphone-x-space-wallpapers_02.jpg);
 }
 
 
@@ -198,4 +198,8 @@ h2
     50%  {bottom:20px;}
 	75%  {bottom:25px;}
     100% {bottom:30px;}
+}
+
+#chath2{
+	color: #FFA500;
 }
