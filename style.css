@@ -10,6 +10,11 @@ h2
 	font-weight:bold;
 }
 
+.text-black{
+	color: #000000;
+	font-weight: bold;
+}
+
 .logo{
 	width:60px;
 	height:60px;
@@ -90,11 +95,15 @@ h2
 
 .footer
 {
-	background-color:#FFA500;
+	background-color:#4c87c1;
 	clear:both;
+	font-size:15px;
+	padding: 0px;
+}
+
+.footer-copyright{
+	background-color: #2978c1;
 	text-align:center;
-	height:50px;
-	font-size:20px;
 }
 
 .name{
@@ -108,9 +117,6 @@ h2
 #SchoolJournal{
 	margin-top:33px;
 }
-/*
-
-*/
 
 .headshot
 {
