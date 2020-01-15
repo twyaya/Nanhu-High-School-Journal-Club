@@ -21,7 +21,9 @@ h2
 }
 
 .navbar-expand-md{
-	background:#ffac47
+	background-color:#ffac47;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
 }
 
 .navbar-toggler{
