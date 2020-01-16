@@ -26,9 +26,5 @@ $(document).ready(function(){
     $("#thanks1").show();
    });
    
-  $("#btn5").click(function(){
-    $("#thanks2").show();
-   });
-   
 });
 
