@@ -241,3 +241,8 @@ h2
     transform: scale(1.15) rotate(0);
   }
 }
+
+#end{
+	background-image: url(https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+}
