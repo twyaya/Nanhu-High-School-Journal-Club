@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("#thanks2").hide();
   $("#school2").hide();
   $("#school3").hide();  
+  $("img.lazyload").lazyload();
   new WOW().init();
   $("#btn1").click(function(){
     $("#school1").show();
