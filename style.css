@@ -2,7 +2,7 @@ body
 {
 	background-image:url('images/back3.jpg');
 	font-weight:900;
-	font-family:Microsoft JhengHei;
+	font-family: 'Noto Sans TC', sans-serif;
 }
 
 h2
@@ -167,14 +167,14 @@ h2
 {
 	border-width:3px;
 	border-style: solid;
-	background-color: #FFAC47;
+	background-color: #ffdc95;
 }
 
 #Advantage
 {
 	border-width: 3px;
 	border-style: solid;
-	background-color: #63a6ea;
+	background-color: #4FC3F7;
 }
 
 #MemberIntroduction
