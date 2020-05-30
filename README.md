@@ -17,6 +17,9 @@
 
 <img src="https://i.imgur.com/lQylVRf.png"></img>
 
+<img src="https://i.imgur.com/JC6uWx0.jpg"></img>
+
+
 <h3>Feature 特色</h3>
 
 1.<b>一體式設計</b>
