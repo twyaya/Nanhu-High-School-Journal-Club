@@ -8,7 +8,7 @@
 
 2.<b>Animate.css</b>
 
-3.<b>Bootstrap 4</b>
+3. 第一版: <b>Bootstrap 4</b> 第二版: <b>Materialize</b>
 
 <h3>Preview 預覽</h3>
 
@@ -37,4 +37,5 @@
 ChatUI by 棒棒勝
 
 Made by 張皓偉 in 2019
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">創用 CC 姓名標示 4.0 國際 授權條款</a>授權.
+
+
