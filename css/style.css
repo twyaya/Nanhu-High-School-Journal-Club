@@ -74,10 +74,6 @@ p {
 #chat_room{
 	background-image: url(../image/dog.webp);
 	margin-top: 3.125rem;
-	border-width:1px;
-	border-style:solid;
-	border-radius:10px;
-	border-color:#343A40;
 }
 
 #introduction{
