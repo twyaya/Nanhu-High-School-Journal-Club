@@ -12,6 +12,8 @@ nav .brand-logo {
 	width: 3.75rem;	
 }
 
+$(".dropdown-button").dropdown();
+
 .chip-two{
 	background-color: #a67a44;
 } 
@@ -76,6 +78,28 @@ p {
 	border-style:solid;
 	border-radius:10px;
 	border-color:#343A40;
+}
+
+#introduction{
+	margin-top: 6.25rem;
+}
+
+#welfare{
+	margin-top: 6.25rem;
+}
+
+#chat_room{
+	margin-top: 6.25rem;
+}
+
+#menber{
+	margin-top: 6.25rem;
+}
+
+#title{
+	border-width:3px;
+	border-style:solid;
+	border-radius: 1.25rem;
 }
 
 footer.page-footer {
