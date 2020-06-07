@@ -12,13 +12,13 @@
 
 <h3>Preview 預覽</h3>
 
-<img src="https://i.imgur.com/9FAXebc.png"></img>
+<img src="https://imgur.com/9FAXebc.png"></img>
 
-<img src="https://i.imgur.com/4eQBzwG.png"></img>
+<img src="https://imgur.com/4eQBzwG.png"></img>
 
-<img src="https://i.imgur.com/CKofLN9.png"></img>
+<img src="https://imgur.com/CKofLN9.png"></img>
 
-<img src="https://i.imgur.com/oetCUu5.png"></img>
+<img src="https://imgur.com/oetCUu5.png"></img>
 
 
 <h3>Feature 特色</h3>
