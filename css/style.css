@@ -34,6 +34,28 @@ p {
   color: #26a69a;
 }
 
+
+.chat_box_left{
+	font-size: 1.5625rem;
+	border-radius: 1rem;
+	background-color: #33b1fe;
+}
+
+.chat_box_right{
+	font-size: 1.5625rem;
+	border-radius: 1rem;
+	background-color: #ffc033;
+}
+
+
+#ch1_chat{
+	display : inline;
+}
+
+#ch2_chat{
+	display : inline;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -52,12 +74,25 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .chat_box_left{
+  	font-size: 1.3rem;
+  }
+  .chat_box_right{
+  	font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+  .chat_box_left{
+  	font-size: 1rem;
+  }
+  .chat_box_right{
+  	font-size: 1rem;
+  }
+  
 }
 
 .icon-block {
@@ -71,10 +106,24 @@ p {
 	margin-top: 3.125rem;
 }
 
+article{
+	font-size: 1.20rem;
+}
+
+#title_2{
+	background: linear-gradient(0.25turn, #f69d3c, #f6af3c, #ffffff);
+}
+
+#about_us{
+	margin-top: 3.125rem;
+	margin-bottom: 3.125rem;
+}
+
 #chat_room{
 	background-image: url(../image/dog.webp);
 	margin-top: 3.125rem;
 }
+
 
 #introduction{
 	margin-top: 6.25rem;
