@@ -111,7 +111,15 @@ article{
 }
 
 #title_2{
-	background: linear-gradient(0.25turn, #f69d3c, #f6af3c, #ffffff);
+;
+}
+
+.block_line {
+    width: 160px;
+    height: 2px;
+    background: #f96300;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 #about_us{
@@ -122,6 +130,7 @@ article{
 #chat_room{
 	background-image: url(../image/dog.webp);
 	margin-top: 3.125rem;
+	max-width: 43.75rem;
 }
 
 
@@ -133,9 +142,6 @@ article{
 	margin-top: 6.25rem;
 }
 
-#chat_room{
-	margin-top: 6.25rem;
-}
 
 #menber{
 	margin-top: 6.25rem;
